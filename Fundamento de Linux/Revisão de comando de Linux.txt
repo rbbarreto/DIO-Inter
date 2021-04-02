@@ -1,0 +1,64 @@
+* apt - GErenciador de Pacotes 
+* apt install - instalarPacotes 
+* apt upgrade - AtualizaPacotes
+* apt Update && apt apgrade - atualiza o sistema
+* dpkg - gerenciador de pacotes deb
+* dpkg -i - instalar um pacote deb 
+* dpkg -r - remove um pacote deb
+* dpkg -L - informações do pacotes deb
+* rpm - Gerenciador de Pacote deb
+* rpm -ivh --nodes  - instala um pacote rpm
+* rpm -U  - atualiza um pacote rpm
+* rpm -e  - remove um pacote rpm
+* yum Gerenciador de pacote rpm
+* yum install - instala um pacote rpm
+* yum update - atualiza um pacote rpm
+* yum remove - remove um pacote rpm
+
+
+- > revisão pratica  
+ 
+* ubuntu
+	sudo apt install wiresharek - instale o wiresharek com gerenciador apt
+	sudo apt upgrade wiresharek - atualiza o wiresharek
+	sudo apt remove wiresharek - remover o wiresharek
+	sudo apt 
+	
+* fedora
+
+
+provar
+
+1: Qual distribuição utilizamos neste curso para trabalhar com pacotes deb?
+R: ubuntu
+
+2: Qual gerenciador instala, e remove pacotes .deb?
+R: dpkg
+
+3: Qual opção do comando rpm instala um pacote rpm?
+R: -inh
+
+4:Qual opção do comando yum remove um pacote rpm?
+R: Qual opção do comando yum remove um pacote rpm?
+
+5: O que é um pacote?
+R: Pacotes são programas colocados dentro de um arquivo identificados por sua extensão.
+
+6: Qual gerenciador que além de instalar pacotes também atualiza o sistema?
+R: apt
+
+7: Qual sequencia de comandos remove um programa instalado pelo apt?
+R: sudo apt remove
+
+8: Quais gerenciadores instalam e removem pacotes rpm?
+R: rpm e yum
+
+9: José deseja instalar o pacote wireshark no ubuntu utilizando o apt. Qual sequência de comandos José deve usar?
+R: sudo apt install wiresharek
+
+10:Qual distribuição utilizamos neste curso para trabalhar com pacotes rpm?
+R: fedora
+ 
+
+
+

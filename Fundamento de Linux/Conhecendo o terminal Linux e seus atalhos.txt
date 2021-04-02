@@ -1,0 +1,83 @@
+CONHECENDO O TERMINAL LINUX E SESUS ATALHOS 
+
+CTRL+C: cancela o comando atual em funcionamento
+CTRL+Z: pausa o comando atual, primeiro plano ou segundo plano
+CTRL+D: faz o logout da sessao atual, sair do terminal.
+CTRL+W: apaga uma palavra na linha atual
+CTRL+U: apaga a linha inteira
+CTRL+R: Busca um comando recente
+!!: Repete o último comando
+man ls: mostra o manual
+ls --Help manual de ajuda.
+rm linux: excluir arquivo
+rmdir ubuntu: remover a pasta, só será removido se não existir arquivo dentro dele.
+
+
+*	para abrir o terminal no linux 
+      CTRL + ALT + T 
+	  
+~ : estou na pasta local 
+
+Comando : pwd - saida do caminho local da nossa pasta 	  
+comando : ls - para lista as pasta no Linux 
+
+Criar novas pasta no Linux
+  comando: mkdir : teste
+
+voltar a pasta anterior
+  comandno : cd ..
+
+diretorio barra seria raiz 
+  comando : cd /   
+  
+Lista com Detalhes - de configuração horario de criação do arquivo etc.  
+  comando: ls -l
+  
+opção do comando  - manual dos comando 
+  comando : man ls 
+  
+volta pasta pessoaç caminho raiz 
+  comando : cd ~
+
+Histoty verificando todos os comando digitado 
+  comando : history ou !! 
+
+  
+MV : Mouve ou renomealo
+   Altera pasta mb Teste Linux 
+   Mouve mv Linux ~
+   
+   comando : touch  criar conteudo teste.txt
+   
+copia - copy 
+  comando: cp linux.txt /home/ricardo/Downloads
+
+comando : clear  
+
+remover diretorio
+ comando : rmdir
+rmdir Linux - pagar arquivos e pasta.
+
+rm teste.txt = removendo o arquivo txt.
+ 
+ 
+ 
+Exercícios Práticos de Revisão
+
+1) Abra o Terminal
+2) Crie uma Pasta de nome Ubuntu dentro da Pasta Documentos
+3) Mova esta Pasta para o diretório Pessoal
+4) Crie um arquivo vazio de nome teste.txt dentro da Pasta Ubuntu
+5) Renomeie este Arquivo como linux.txt
+6) Crie uma cópia deste arquivo na Pasta Downloads
+7) Exiba todos os comandos digitados no Terminal
+8) Execute a ajuda do comando ls
+9) Execute o manual do comando mv
+10) Pare a execução do manual
+11) Saia do Terminal utilizando sequência de teclas
+12) Exclua a pasta Ubuntu
+13) Exclua o arquivo linux.txt 
+14) Limpe o terminal
+15) Utilize o comando para sair do terminal 
+   
+   

@@ -1,0 +1,42 @@
+Compactação, descompactação e arquivamento
+
+gzip aularedes.txt
+
+
+1:Qual comando abaixo compacta arquivos e adiciona a extensão zip?
+R:zip
+
+2:Qual comando abaixo não compacta arquivos?
+R:bz2
+
+3:Qual comando abaixo compacta arquivos e adiciona a extensão bz2?
+R:bzip2
+
+4:Qual comando abaixo compacta arquivos e adiciona a extensão gz?
+R:gzip
+
+5:Qual opção do compactador bzip2 descompacta um arquivo bz2?
+R:
+
+6:Qual opção do compactador bzip2 descompacta um arquivo bz2?
+R:-d
+
+7:Qual a extensão gerada pelo comando de compactação de arquivos bzip2?
+R:
+
+8:Qual a extensão gerada pelo comando de compactação de arquivos bzip2?
+R:bz2
+
+9:Qual comando abaixo compacta arquivos e adiciona a extensão rar?
+R: rar
+
+10:Qual comando abaixo representa um arquivador?
+R: tar
+
+11:Qual opção do arquivador tar descompacta um arquivo compactado e arquivado com tar?
+R: -xvf
+
+12: Qual opção do compactador rar descompacta um arquivo rar?
+R-x
+
+

@@ -1,0 +1,75 @@
+
+Fuçando no Linux com comandos diversos
+
+1: Comandos history, alias e outras interações com arquivos .txt
+	history -c - apaga o history
+	alias hh='history'
+	alias trc='traceroute'	
+	nl aularede.txt - numero de linhas
+	wc -l aularede.txt - conta a linhas em branco
+	wc -w aularede.txt - conta as palavras
+	cmp aularede.txt vazio.txt
+	diff aularede.txt vazio.txt -verifica a dierença dos arquivos
+	sort -n - organizar a saida deste arquivo em ordem numerica
+
+2: Comandos last reboot, route, time, cowsay e cmatrix
+	last reboot - mostra todos realização do sistema
+	route -n - mostra todas a tabela de interface do nosso ip do Kernel
+	time - mostra e tempo de processo 
+	uptime - mostra o tempo que o sistema esta rodando
+	cowsay 
+	cmatrix - 
+
+3: Comandos para desligar o sistema operacional
+	init 0 - desligar minha maquina agora 
+	telinit 0 -  desligar minha maquina agora
+	halt - ira pedir autenticação
+	seq - imprimir uma sequencia de numero 1..10 
+	
+	ls -a - mostra os arquivos oculto 
+	ls -F - Exibe os diretorios com / no fim
+	nl - exibe um arquiivo com seus numeros de linhas
+	wc-I - conta o numero de linhas de um arquivo incluído as em branco e exibe no terminal 
+	wc W conta o numero de palavras de um arquivo e exibe no terminal
+	whereis - exibe o caminho do programa e seu manual
+	which - 
+	logout - 
+
+4: Revisão do conteúdo com JSLinux
+	https://bellard.org/JSLinux
+ 
+    ESC : wq! - para sair do Arquivo txt
+	cmp texto.txt vazio.txt - comparando aquivo
+
+5: Certifique seu conhecimento
+ 
+ 1: Qual sequência de comandos exibe o tempo de processamento do comando traceroute no host www.pudim.com.br?
+ R :  time traceroute www.pudim.com.br
+ 
+ 2: Qual das opções do comando history apaga o histórico de comandos?
+ R: history -c
+ 
+ 3: José deseja exibir a comparação entre dois arquivos de texto, um arquivo de nome vazio.txt  e outro arquivo.txt qual sequência ele deve digitar no terminal?
+ R: cmp vazio.txt arquivo.txt
+ 
+ 4: Qual dos comandos abaixo coloca números de linhas em um arquivo de texto?
+ R: nl 
+ 
+ 5: João deseja instalar o programa cowsay para sua filha, qual sequência de comandos ele deve digitar no terminal?
+ R: sudo apt install cowsay
+ 
+ 6: Qual comando organiza um arquivo de texto em ordem alfabética ou numérica?
+ R: sort
+ 
+ 7: José deseja exibir a contagem do número de bytes de um arquivo de nome vazio.txt qual sequência ele deve digitar no terminal?
+ R: wc -c vazio.txt
+
+ 8: José deseja exibir a contagem do número de palavras de um arquivo de nome vazio.txt qual sequência ele deve digitar no terminal?
+ R: wc -w vazio.txt
+ 
+ 9: Quais opções de comandos temos para desligar a máquina rapidamente?
+ R:shutdown -h now, init 0, telinit 0, e halt
+
+ 10: José deseja exibir a contagem do número de linhas de um arquivo de nome vazio.txt qual sequência ele deve digitar no terminal?
+ R:  wc -l vazio.txt
+ 

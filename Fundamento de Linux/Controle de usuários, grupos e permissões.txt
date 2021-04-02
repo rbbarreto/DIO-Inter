@@ -1,0 +1,88 @@
+Controle de usuários, grupos e permissões
+
+passwd
+
+- > Como adicionar usuários
+- > Como trocar de usuário e alterar sua senha
+
+	* last - lista de entrada e saida de usuario
+    * lastlog
+	* id - todos identificadores do usuarios
+	* cat /etc/passwd - exibir todos os usuarios
+	* userdel -r nomedousuario - remover um usuario e a pasta pessoal de mesmo
+
+- > Como exibir informações de login e remover um usuário
+	
+	* Grupo permite organizar os usuario definir a permissoes de acesso a arquivos e diretórios de forma fácil.
+	* controle de grupos Cat /etc/group | more  -  grupo de sistema
+	* Exibir todos os grupos de usuario usuario groups 
+	* sudo addgroup ubuntu - criar um grupo
+	* sudo adduser linux 
+	* su maquina 	
+
+- > Como criar um grupo e gerenciar os usuários	
+
+	* adduser usuario grupo 
+	* sudo gpasswd -a maquina teste 
+	* sudo gpasswd -d maquina teste - removendo usuario do grupo maquina
+	* sudo groupdel teste - remove o group teste (comando de localizar grupo cat /etc/group | grep teste)
+
+- > Como gerenciar permissões em diretórios e o que é o modo octal
+	
+	Permissões em arquivos e diretorios
+	servem para restringir acessos com:
+	leitura, escrita e execução, onde 
+	
+	  * r - read (leitura)
+	  * w -write (escrita)
+ 	  * x - eXecution (Execução)
+	
+	verificar permissões em um diretorio
+	  
+	  ls -lh 
+
+- > Comando chmod
+   
+    Estudar crmod - na internet
+	 
+     
+- > Revisão e prática do conteúdo
+
+-> Certifique seu conhecimento
+
+1: Qual comando é usado para adicionar usuários?
+R: adduser
+
+2: Qual comando exibe o nome do usuário logado no sistema?
+R: logname
+
+3: Qual sequência de comandos abaixo adiciona um usuário de nome teste a um grupo de nome grpteste?
+R: adduser teste grpteste
+
+4: Qual sequência de comandos abaixo remove um usuário de nome teste do grupo de nome grpteste?
+R: gpasswd –d teste grpteste
+
+5 : Augusto tem um dois usuários em seu sistema: um de nome augusto e outro guto. Sendo que no terminal de Augusto está logado no usuário augusto, que sequência de comandos ele deve utilizar para trocara para o usuário guto?
+R: su guto
+
+6: Qual comando exibe os identificadores de um usuário?
+R: id
+
+7: Qual comando adiciona um grupo?
+R: addgroup
+
+8: Qual comando é usado para alterar a senha de um usuário?
+R: passwd
+
+9:Qual comando deleta usuários e suas respectivas pastas pessoais?
+R: userdel -read
+
+10: Qual sequência de comandos abaixo adiciona um usuário de nome teste a um grupo de nome grpteste?
+R: adduser teste grpteste
+
+11: Andrea deseja exibir todos os usuários de um sistema, qual sequência de comandos ela deve utilizar?
+R: cat /etc/passwd
+ 
+
+
+

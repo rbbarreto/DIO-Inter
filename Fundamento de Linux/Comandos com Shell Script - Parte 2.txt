@@ -1,0 +1,66 @@
+
+- > mv - move arquivos e diretorio e renomeia arquivos e diretórios.
+
+
+	* touch mv-comando.txt  - arquivo criado
+	* mv -i mv-comando.txt meudiretorio - estou movendo o arquivo txt para dentro do diretorio meudiretorio.
+	* mv -n mv-comando.txt meudiretorio - sem substituição
+	* mv -d mv-comando.txt meudiretorio - substitui como backup
+	* mv -i mv-comando.txt meudiretorio - Confirme o arquivo de substituição
+	* mv -u mv-comando.txt meudiretorio - substitui o arquivo independente da situação
+	
+	* touch mv.txt 
+	* mv -u mv.txt meudiretorio 
+	
+- >  cp - copiar arquivos 
+	
+	Descrição 
+		* -i:  
+		* -s:
+		* -u:	
+	
+	
+	
+	* touch m.txt  -> criar arquivo txt 
+	* cp -i m.txt   /home/ricardo/digital/meudiretorio -> colocar o arquivo neste caminho absoluto 
+	* cp -v mv.txt /home/ricardo/digital/meudiretorio -> o arquivo foi copiado e detalhar como foi copiado.
+	* cp -v -r meudiretorio novo - fez um copia de todos os arquivo 
+	
+
+- >  mkdir - Criando diretórios
+
+
+- > Conhecimento :
+1: O que é Script?
+Linguagem de programação que executa no sistema em tempo de execução.
+
+2:-l no comando cp serve para:
+Criar hard links
+
+3:Qual comando lista o conteúdo em coluna detalhada?
+ls -l
+
+4:O que é Shell?
+É uma interface de usuário para acessar os serviços de um sistema operacional.
+
+5: Comando env é usado para imprimir:
+variaveis de ambiente
+
+6: cd é um acrônimo de:
+Change directory
+
+7:Comando cp serve para?
+Copiar arquivos
+
+8: Qual comando é concatenate?
+cat
+
+9: O comando rm serve para:
+Remover arquivo
+
+10:A opção -rf pertence a qual comando
+rm
+
+
+
+ 

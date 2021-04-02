@@ -1,0 +1,97 @@
+Fundamentos de Rede e Comandos de Rede
+
+- > O que são Redes, Protocolos e Interfaces de rede
+	redes - man - rede grande
+	redes - lan > local pequenas
+
+	IP - Protocolo de internet
+	ICMP - internet control message Protocolo
+	DNS - Domain Name Server
+  
+	Interface de Rede - no diretorio do Linux /dev
+	Interface loopBack - permite fazer conexões com você mesmo.
+
+- > Comando ifconfig
+
+	ifconfig - se não encontra precisa executar este comando abaixo.	
+		sudo apt install net-tools 
+		ifconfig - interface de rede.
+	
+	ether - Endereço mac
+	
+	TIMANE - I 
+		EXEMPLO
+	
+	USUARIO LOGADO NO LINUX - WHOAMI
+	COMANDO PING - ping 
+	ping --help - para entender o que ele fazer
+
+- > Comandos hostname e ping
+	hostname - nome do camputador na rede 
+	hostname -I - endereço IP 
+	hostname -i - localizar Ip local
+	
+	who - como estamos logado neste rede 
+	whoami - como e o nome do usuario logado nesta rede.
+	ping www.google.com - verificar se este roste esta ativos
+    ping --help - verificar a lista de comando
+	ping www.google.com -w 4 - pacote de transmissão e recebido
+	dig www.google.com - todos roste do google mostrando o ip (DNS)
+	
+   
+- > Comandos traceroute e finger
+	traceroute  -  se não encontra precisa digitar o comando : 
+		sudo apt install traceroute
+			traceroute www.google.com - verificando os nos para chegar no google.
+	dig www.googçe.com +short - mostra somente o endereco do Google
+	whois : install 
+	    sudo apt install whois
+	finger 
+		sudo apt install finger 
+
+	finger - mostra todo usuario esta logando no sistema
+	ifconfig - exibe informações sobre interface de rede Ip
+	hostname - Exibe informações sobre o hostname
+	hostname - i - Exibe o numero de endereco loopback do hostname
+	hostname - I - exibe o endereco de IP rede
+    dig host - exibe informações dobre o DNS 	
+
+- > Revisão do conteúdo e exercícios - Parte 1
+
+- > Revisão do conteúdo e exercícios - Parte 2
+
+
+- > Exercícios Práticos
+
+1 : Qual das alternativas abaixo representa 3 protocolos de Rede?
+  R: IP, ICMP e DNS
+
+2: Qual sequência de comandos exibe a rota do seu computador (sua rede) até o host www.google.com?  
+  R: traceroute www.google.com
+
+3: Qual comando exibe o nome do computador na rede (nome do host)?
+  R :hostname
+
+4: Qual das alternativas abaixo representa as 3 estruturas de rede conhecidas?
+  R: WAN, MAN e LAN  
+  
+5: Qual comando exibe Interfaces de Rede e Endereços IP no terminal?
+  R: ifConfig
+
+6: O que é Protocolo em Redes de Computadores?
+  R:  A “linguagem” usada pelos dispositivos de uma rede de modo que eles consigam se entender.
+
+7: O que é uma Interface de Rede?
+  R: Interface de rede é um software e/ou hardware que faz a comunicação em uma rede de computadores.
+
+8: O que é Rede?
+  R:  É um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos.
+  
+9: Qual sequência de comandos exibe o número de IP do site www.pudim.com.br?  
+  R: dig www.pudim.com.br +short
+  
+10: Qual comando testa se um host está ativo ou inativo enviando pacotes de requisição do protocolo ICMP?
+ R: ping 
+
+
+

@@ -1,0 +1,88 @@
+Diretórios do Linux e Comandos de Sistema
+
+ - > Apresentação dos comandos de diretórios do linux
+
+
+
+ - > Praticando no terminal os comandos de diretórios e sistema - Parte 1
+
+* cd 
+* ls
+* cd /proc
+* cat /proc/cpuinf 
+* cat /proc/cpuinf | more - paginar 
+* lspci - todos as placas conecta ao nosso computador.
+* lsusb - todos a unidade USB
+* arch - mostra arquitetura que você esta usando, Linux 
+* uname - Linux
+* uname -r versão
+* free - saida de memoria do linux - memoria sWap memoria virtual.
+* du -h ~ - verá todos diretorio atual
+* du -h ~ | more - verá todos diretorio atual + o tamanho do arquivo que estamos usando.
+
+ - > Praticando no terminal os comandos de diretórios e sistema - Parte 2
+ 
+* cat /etc/passwd | more - todos os usuários do sistema criado pelo sistema
+* reboot - reinicializar o sistema linux
+* shutdown -h now 
+shutdown -r - Reinicia o sistema 
+* lscpu | more - verificar 
+* lswk | more - lista todos os radrio que acha na maquina  
+* lshw - short -  Caminho do hardware | dispositivo | classe | descricao  
+
+ - > Revisão do conteúdo
+* echo "Ricardo" 
+* echo -e "Ricardo\n"
+* echo -e "---INFORMAÇÕES DE HARDWARE---\N"
+* echo -e "---INFORMAÇÕES DE HARDWARE---\N" > minhamaquina.txt
+* lshw | more 
+* lshw >> minhamaquina.txt
+* cat minhamaquina.txt
+* free - mostra memoria fisica e virtual
+* echo -e "\N---INFORMAÇÕES DE MEMORIA---\N" >> minhamaquina.txt 
+* free >> minhamaquina.txt
+* lspci : mostra todas as placa pci
+* 
+
+provar
+1: Qual comando exibe todos os hardwares listados pelo Linux?
+	R: lshw
+
+2 : Um técnico deseja exibir todos os dispositivos do tipo USB conectados ao Linux, qual comando ele deve utilizar?	
+	R: lsusb
+
+3 : João deseja visualizar o espaço ocupado por cada arquivo e pasta dentro de /home no hd. Qual sequência de comandos ele deve usar? 	
+	R: du -h /home
+	
+4 : Qual comando exibe a versão do kernel Linux?
+	R: uname -r versão
+
+5 : Qual o comando exibe informações de memória física e swap?
+	R: free
+
+6 : Qual comando exibe o nome do kernel?
+	R: uname
+
+7 : Quais comandos exibem a arquitetura do kernel Linux?
+	R: uname -m, arch
+	
+8 : Qual o comando exibe todas as placas PCI listadas pelo Linux?
+	R: lspci
+
+9: Qual a saída do comando cat /proc/meminfo?
+	R: Informações de Memória.
+
+10 : Qual a saída do comando cat /proc/cpuinfo?
+	R: Informações de Processamentos.
+ 	
+	
+	
+	
+		
+
+
+ 
+
+
+
+

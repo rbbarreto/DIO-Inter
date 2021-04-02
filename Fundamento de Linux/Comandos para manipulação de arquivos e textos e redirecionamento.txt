@@ -1,0 +1,68 @@
+cat : Exibe conteúdo de arquivos no terminal
+tac: Exibe a ordem iversa dos conteúdos no terminal
+nano: editor de textos Linus
+touch: busca arquivos
+find : Exibe o tipo de um arquivos
+file
+head
+tail 
+more
+less
+grep 
+cal
+date
+whatis
+
+| : Envia a saida de um comando para entrada de outro comando permitindo a execuçao de dois comandos
+> : Redireciona a saida de um comando para outro comando ou arquivo
+>> : Redireciona a saida a mesma para comandoou arquivo
+< : Direciona a entrada de um arquivo para saida de um comando
+& : Este operador permite usar dois comandos e separar suas saidas no Terminal
+&& : Esando para que dois comandos só 
+
+
+Exercícios de Revisão
+1) Crie uma pasta de nome Exercícios e Acesse a mesma
+2) Crie um arquivo vazio de nome lista_nomes.txt
+3) Abra este arquivo com o Editor Nano
+4) Digite 20 Nomes de Pessoas Conhecidas incluindo o seu, pulando de linha para cada nome inserido.
+5) Salve o arquivo
+6) Exiba os 10 primeiros Nomes da Lista
+7) Exiba os 10 ultimos Nomes da Lista
+8) Procure no texto o seu nome
+9) Crie um Arquivo chamado setembro.txt com a saida do comando cal.
+10) Adicione o conteúdo do arquivo setembro.txt ao arquivo lista_nomes.txt
+11) Exiba o arquivo lista_nomes.txt com paginação
+12) Exiba o caminho do arquivos setembro.txt
+13) Exiba o tipo do arquivo lista_nomes.txt
+14) Exiba a explicação do comando ls
+15) Renomeie o Arquivo lista_nomes.txt para arquivo.txt
+16) Limpe o Terminal
+17) Saia do Terminal
+
+         Criar                Abrir
+1: mkdir Exercicios && cd Exercicios
+2: touch lista_nomes.txt
+3: nano lista.text salvar: CRLT+O, Sair:CRLT+X
+4: head lista_nomes.txt 10 primeiros nomes
+5: tail lista_nomes.txt 10 ultimos da minha lista
+6: grep Ricardo lista_nomes.txt : localizar nome no arquivo, cat lista_nomes.txt | grep Bruno 
+7: cal setembro 2020 > setembro.txt
+   cat setembro.txt
+8: cat setembro.txt >> lista_nomes.text
+    cat lista_nomes.txt
+9: less lista_nomes.txt : paginação
+10: caminho do arquivo txt : find ~ -name setembro.txt
+11: file lista_nomes.txt : testo unicode text
+12: whatis ls
+13: mv lista_nomes.txt arquivo.text
+14: clear
+15: rm -r *  : remover todos os arquivo desta pasta.
+
+
+Site de estudo para Linux
+wwww.guiafoca.org
+
+
+	
+ 
