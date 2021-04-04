@@ -1,0 +1,43 @@
+Fundamentos de banco de dados.
+
+O que é são informações?
+Estrutura de dados, organização de dados conjunto de dados relacionados entre si que geram valor, que criar sentidos aos dados.
+Material do conhecimento.
+
+modelos relacional
+  Conceito e melhores práticas com banco de dados PostgreSQL.
+
+Definição
+   Modelo mais comum, que classifica e organiza as informações em tabelas com linhas e colunas.
+   As linhas, ou tuplas, são os dados organizados, são os valores das tabelas, e as colunas são os atributos destes dados.
+
+informações relacionais
+------------------------------------------------------
+|  12131231312133      |     Emengarda Rogerio   |  
+|   85522224668979	     |     Daniel cleonice            |
+-------------------------------------------------------
+       telefone 		Proprietários
+
+Transformando em formato de tabela
+
+1-  |  12131231312133         	|     Emengarda Rogerio   |  
+2 - |   85522224668979 	|     Daniel cleonice            |
+	Telefones			proprietarios
+
+
+o que e realmente uma tabela?
+   conjuntos de dados dipostos em colunas e linhas referentes a um objetivo comum.
+   As colunas são consideradas com "campos da tabela", como atributos da tabela.
+   As linhas de uma tabela são chamadas também de tuplas, e é onde estão os valores, os dados.
+
+o que pode ser definido como tabelas?
+  * 
+
+
+
+		
+
+
+
+
+  
